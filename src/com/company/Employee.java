@@ -12,7 +12,11 @@ public class Employee {
         setAge(18);
     }
 
-
+public Employee(int age)
+{
+    setAge(age);
+    baseSalary=3000;
+}
 
     public Employee(int baseSalary,int age) {
         setAge(age);

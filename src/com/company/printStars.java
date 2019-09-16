@@ -9,7 +9,11 @@ public class printStars {
                 System.out.println("first employee salary is:"+firstEmployee.calculateBenifits());
         Employee secondEmp=new Employee();
         System.out.println("the second employee salary is: "+secondEmp.calculateBenifits());
-                /*printing the stars in this program
+        Employee thirdEmp= new Employee(50);
+        System.out.println("the third employee salary is:"+thirdEmp.calculateBenifits());
+
+
+        /*printing the stars in this program
         for (int i = 0; i <4 ; i++) {
             for (int j = 0; j <i ; j++) {
                 System.out.print("* ");
