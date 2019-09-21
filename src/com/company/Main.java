@@ -16,7 +16,8 @@ public class Main {
             b[i].printValues();
 
         }
-
+        MystryBook c = new MystryBook();
+        c.printValues();
 
     }
 }
