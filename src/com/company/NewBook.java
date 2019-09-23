@@ -5,7 +5,7 @@ import sun.rmi.runtime.NewThreadAction;
 public class NewBook {
 
 
-    protected String title;
+    public String title;
 
     public NewBook() {
         System.out.println("default constructor without any parameters!!");
